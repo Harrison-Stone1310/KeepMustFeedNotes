@@ -1,0 +1,1 @@
+Definition: A physical device used to send digital inputs to the game, can be things like a gamepad, keyboard and mouse, etc. 

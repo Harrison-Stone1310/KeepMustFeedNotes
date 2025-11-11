@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"97be0d57d6d373ae","type":"file","file":"KeepMustFeedNotes/AllGameDesign/Capstone Project/MISC Notes, need to organize/PlayerStateMachine/Damaged.gd.md","x":-107,"y":480,"width":400,"height":400},
+		{"id":"416fba629f697467","type":"file","file":"KeepMustFeedNotes/AllGameDesign/Capstone Project/MISC Notes, need to organize/PlayerStateMachine/Idle.gd.md","x":93,"y":-160,"width":400,"height":389},
+		{"id":"20aa387a22380095","type":"file","file":"KeepMustFeedNotes/AllGameDesign/Capstone Project/MISC Notes, need to organize/PlayerStateMachine/Jump.gd.md","x":160,"y":1080,"width":400,"height":400},
+		{"id":"6e0a6644db20f404","type":"file","file":"KeepMustFeedNotes/AllGameDesign/Capstone Project/MISC Notes, need to organize/PlayerStateMachine/Attack.gd.md","x":-520,"y":-365,"width":400,"height":400},
+		{"id":"b57a7f42ed245361","type":"file","file":"KeepMustFeedNotes/AllGameDesign/Capstone Project/MISC Notes, need to organize/PlayerStateMachine/Walk.gd.md","x":-800,"y":480,"width":400,"height":400},
+		{"id":"69e61c326e45543b","type":"file","file":"KeepMustFeedNotes/AllGameDesign/Capstone Project/MISC Notes, need to organize/PlayerStateMachine/Fall.gd.md","x":960,"y":280,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"769cff02f91a1550","fromNode":"416fba629f697467","fromSide":"bottom","toNode":"97be0d57d6d373ae","toSide":"top"},
+		{"id":"82daf19b0894f205","fromNode":"97be0d57d6d373ae","fromSide":"top","toNode":"416fba629f697467","toSide":"bottom"},
+		{"id":"b99c9399635ef078","fromNode":"97be0d57d6d373ae","fromSide":"right","toNode":"69e61c326e45543b","toSide":"left"},
+		{"id":"8e57bab4e6640e3b","fromNode":"69e61c326e45543b","fromSide":"left","toNode":"97be0d57d6d373ae","toSide":"right"},
+		{"id":"343b0a56edf70962","fromNode":"b57a7f42ed245361","fromSide":"right","toNode":"97be0d57d6d373ae","toSide":"left"},
+		{"id":"e8128aaf743261fa","fromNode":"97be0d57d6d373ae","fromSide":"left","toNode":"b57a7f42ed245361","toSide":"right"},
+		{"id":"f5e01be5e1364639","fromNode":"b57a7f42ed245361","fromSide":"top","toNode":"6e0a6644db20f404","toSide":"bottom"},
+		{"id":"dbdb499db77ef3e3","fromNode":"6e0a6644db20f404","fromSide":"bottom","toNode":"b57a7f42ed245361","toSide":"top"},
+		{"id":"feecfbe6eab0e4d4","fromNode":"416fba629f697467","fromSide":"left","toNode":"6e0a6644db20f404","toSide":"right"},
+		{"id":"00f8463cb1282315","fromNode":"6e0a6644db20f404","fromSide":"right","toNode":"416fba629f697467","toSide":"left"},
+		{"id":"4fe2245cc5511e79","fromNode":"20aa387a22380095","fromSide":"right","toNode":"69e61c326e45543b","toSide":"bottom"},
+		{"id":"66bf4c1e1c7fc9e6","fromNode":"b57a7f42ed245361","fromSide":"bottom","toNode":"20aa387a22380095","toSide":"left"},
+		{"id":"9cb8b17334297598","fromNode":"416fba629f697467","fromSide":"right","toNode":"20aa387a22380095","toSide":"top"}
+	]
+}

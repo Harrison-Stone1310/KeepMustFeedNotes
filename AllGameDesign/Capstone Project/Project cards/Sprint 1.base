@@ -1,0 +1,50 @@
+views:
+  - type: cards
+    name: Backlog
+    filters:
+      and:
+        - Sprint.contains("Sprint1")
+        - CurrentTask == false
+        - note["Is Done?"] != true
+    order:
+      - file.name
+      - Sprint
+      - Type
+      - Due Date
+      - Is Done?
+      - CurrentTask
+      - Description
+    cardSize: 220
+    imageFit: contain
+  - type: cards
+    name: Current tasks
+    filters:
+      and:
+        - Sprint.contains("Sprint1")
+        - CurrentTask == true
+    order:
+      - file.name
+      - Sprint
+      - Type
+      - Due Date
+      - Is Done?
+      - CurrentTask
+      - Description
+    cardSize: 220
+    imageFit: contain
+  - type: cards
+    name: Completed
+    filters:
+      and:
+        - Sprint.contains("Sprint1")
+        - note["Is Done?"] == true
+    order:
+      - file.name
+      - Sprint
+      - Type
+      - Due Date
+      - Is Done?
+      - CurrentTask
+      - Description
+    cardSize: 220
+    imageFit: contain

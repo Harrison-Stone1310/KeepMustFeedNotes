@@ -1,0 +1,28 @@
+views:
+  - type: cards
+    name: All Sprints
+    filters:
+      and:
+        - "!Sprint.isEmpty()"
+        - '!Sprint.contains("template")'
+    order:
+      - file.name
+      - Sprint
+      - Type
+      - Due Date
+      - Is Done?
+      - Description
+    imageFit: contain
+  - type: cards
+    name: All templates
+    filters:
+      and:
+        - Sprint.contains("template")
+    order:
+      - file.name
+      - Sprint
+      - Type
+      - Due Date
+      - Is Done?
+      - Notes
+    imageFit: contain

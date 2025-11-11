@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"be034ba9131647dd","x":-360,"y":-240,"width":250,"height":220,"type":"text","text":"Save/Load Code\n- Player \n- World Information\n- List of every level with where they are saved, to call upon for loading"},
+		{"id":"b07b4654118471da","x":-110,"y":20,"width":410,"height":360,"color":"2","type":"text","text":"World Information\n- Rooms entered\n- Room starting location\n- Connection room (who to load into, who did you load from)\n- Which side to enter from (load right side spawn, left side spawn)\n- Total resources on map\n- What resources have been mined"},
+		{"id":"11d867886f21cd6b","x":40,"y":-380,"width":260,"height":200,"color":"3","type":"text","text":"Player\n- Resources gathered\n- Health\n- Spawn location\n\n"}
+	],
+	"edges":[
+		{"id":"e984fbde792cd928","fromNode":"11d867886f21cd6b","fromSide":"left","toNode":"be034ba9131647dd","toSide":"right"},
+		{"id":"3479c9a4b35f94a5","fromNode":"b07b4654118471da","fromSide":"top","toNode":"be034ba9131647dd","toSide":"right"},
+		{"id":"b08a27ba1146dde4","fromNode":"be034ba9131647dd","fromSide":"right","toNode":"11d867886f21cd6b","toSide":"left"},
+		{"id":"118979712060aac1","fromNode":"be034ba9131647dd","fromSide":"right","toNode":"b07b4654118471da","toSide":"top"}
+	]
+}

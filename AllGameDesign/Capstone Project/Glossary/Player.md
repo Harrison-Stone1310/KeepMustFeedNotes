@@ -1,0 +1,1 @@
+Definition: The object controlled by they person(s) playing the game using inputs from the [[Controller]]
