@@ -11,13 +11,14 @@
             "id": "52acb4efe6a367bd",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "AllGameDesign/Capstone Project/Project cards/Sprint 1.base",
-                "viewName": "Backlog"
+                "file": "AllGameDesign/Capstone Project/Project cards/Second Scene.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "Sprint 1"
+              "icon": "lucide-file",
+              "title": "Second Scene"
             }
           }
         ]
@@ -145,8 +146,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           },
           {
@@ -184,6 +185,7 @@
   },
   "active": "52acb4efe6a367bd",
   "lastOpenFiles": [
+    "AllGameDesign/Capstone Project/Project cards/Sprint 1.base",
     "ProjectMotes/Welcome.md",
     "ProjectMotes"
   ]
