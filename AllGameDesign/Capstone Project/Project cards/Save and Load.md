@@ -23,3 +23,4 @@ Notes so far:
 - If levels are going to be self contained than for saving and loading going to need to have getters and setters for any parts saved, could do it where you send 2 parts to the function 1 is the Data and the other is the identifier
 - 11/2 NEED a way to parse through the game save information when it is saved, also important that when the game is saved and loaded **Everything** that needs to be saved is saved as the save code overwrites the file, it does not add onto it. 
 - 11/9 Using int as keys results in the keys becoming strings when saving and loading, probably best to give all the rooms String keys instead. *OK* so I think making it so when something that needs to be saved gets changed then that is when Save(object type) gets called.
+- 11/16- Doing some work with going through a group of nodes and calling a save function, then calling the main save function. Then the inverse for the load functions. 
