@@ -9,6 +9,8 @@ Description: Save and load the game information, such as player position and min
 CurrentTask: false
 ---
 #capstoneProject 
+[[UML SaveLoad.canvas|UML SaveLoad]]
+The UML for save load should work in theory, will have to test in practice. It is however a good UML. 
 Notes so far:
 - Been looking into save an load some more and see the two paths to take are saving with resources and saving with JSON. Already tried with resources so I think it would be best to try with JSON next. JSON is also safer.
 - A list of all the info I need saved would a good start, need to decide who handles want. I saw one implementation using a save function in each object that needs to be saved, and adding it to a group called persistent. 
@@ -24,3 +26,14 @@ Notes so far:
 - 11/2 NEED a way to parse through the game save information when it is saved, also important that when the game is saved and loaded **Everything** that needs to be saved is saved as the save code overwrites the file, it does not add onto it. 
 - 11/9 Using int as keys results in the keys becoming strings when saving and loading, probably best to give all the rooms String keys instead. *OK* so I think making it so when something that needs to be saved gets changed then that is when Save(object type) gets called.
 - 11/16- Doing some work with going through a group of nodes and calling a save function, then calling the main save function. Then the inverse for the load functions. 
+- 11/17- IT can only have all information in the *current* scene not all the scenes. SO good for getting all the information needed in a scene with alot of things to save but bad for saving the *whole* game
+	- Looking like I am going to have to call Save/Load when I enter a scene, or add like a resource that I can extract data from later when game is saved and load into. Maybe a hasBeenLoaded boolean, and whenever I call save it sets it to true and loaded sets it to false. 
+- 11/20 Honestly I think that saving and loading should have 2 parts, one is the code for writing and reading the file and one is for objects to send and receive data related to the game. 
+	- File Saving- Happens when starting a new run
+	- File Loading- Happens when starting a new run 
+	- Object Saving- Happens with important things, like getting materials and clearing a corruption spot
+	- Object Loading- Entering a new room
+	- Now there are a few ways to insure that things stay relevant to the current run versus when a new run is started. ~~Like have a framework of resources per room to reduce the amount of object saving (need to test on scenes if they change or stay the same, as player does but unsure on room)~~
+	- Resources do *not* stay the same in between level scene loads, player does however. Seem when an object is removed from the scene tree it makes the resource use the default value. So will need to have the object loading effect the resources, which is ok. 
+	- Resources would be a good way of setting up a lot of the variables for levels, as it would allow for each level to basically be set up with their version of variables 
+	- 

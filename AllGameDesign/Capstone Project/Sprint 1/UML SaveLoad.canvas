@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"939856450a928aba","type":"group","x":-880,"y":-680,"width":580,"height":696,"label":"SaveLevel"},
+		{"id":"2f00498bb660ef11","type":"group","x":480,"y":-680,"width":404,"height":529,"label":"Save Player"},
+		{"id":"6b1aef3088546baa","x":-40,"y":-1196,"width":340,"height":376,"type":"group","label":"Save Object"},
+		{"id":"ebb584ba3dcef7ad","x":812,"y":-1269,"width":290,"height":309,"type":"group","label":"SaveGame"},
+		{"id":"a0c80c6316d1e46c","x":-14,"y":-1176,"width":270,"height":168,"type":"text","text":"- Data: Dictionary\n\t- Player: Dictionary\n\t- Levels: Dictionary\n\t\t- LevelID: Dictionary"},
+		{"id":"173d380aae42ea9e","x":-14,"y":-1008,"width":270,"height":128,"type":"text","text":"SaveGame()\nLoadGame()\nGetPlayerData()\nGetLevelData(levelID:String)"},
+		{"id":"651ae51aa34c1ce8","type":"text","text":"\n- Save()\n- Load()","x":-880,"y":-160,"width":580,"height":120},
+		{"id":"cf6b9735c3fed36c","type":"text","text":"- LevelData: Resource\n\t- RoomID: String\n\t- SideEnter: String\n\t- SpawnPoints: Dictionary\n\t\t- Left: Array\n\t\t- Right: Array\n\t\t- Etc...\n\t- RoomConnect: Dictonary \n\t\t- Left: String\n\t\t- Right: String\n\t\t- Etc....\n\t- Materials: Dictonary\n\t\t- Maertal1Mined: Bool\n\t\t- Material2Mined: Bool\n\t\t- MaterialXMined: Bool","x":-880,"y":-660,"width":580,"height":500},
+		{"id":"5bada7d7f75499cc","x":832,"y":-1249,"width":250,"height":109,"type":"text","text":"- GameData:Dictionary "},
+		{"id":"45b191b6e635dbb6","x":832,"y":-1140,"width":250,"height":120,"type":"text","text":"SaveToGameFile()\nLoadFromGameFile()"},
+		{"id":"5ea3d6fa369ae5f1","type":"text","text":"- playerData: Resource\n\t- Data: Dictionary\n\t\t- posX: int\n\t\t- posY: int\n\t\t- Inventroy: Dictonary\n\t\t\t- RightMat: Int\n\t\t\t- LeftMat: Int\n\t\t\t- UpMat: Int\n\t\t\t- DownMat: Int","x":500,"y":-660,"width":364,"height":289},
+		{"id":"a993ab5000770f43","type":"text","text":"Save()\nLoad()","x":500,"y":-311,"width":364,"height":129}
+	],
+	"edges":[
+		{"id":"7d1134db39959fdc","fromNode":"cf6b9735c3fed36c","fromSide":"right","toNode":"6b1aef3088546baa","toSide":"left"},
+		{"id":"f338bfaaa8afa7be","fromNode":"2f00498bb660ef11","fromSide":"left","toNode":"6b1aef3088546baa","toSide":"right"},
+		{"id":"193c7f75d7525255","fromNode":"6b1aef3088546baa","fromSide":"left","toNode":"cf6b9735c3fed36c","toSide":"right","fromEnd":"arrow","color":"2"},
+		{"id":"b7c993bf8a8b2df1","fromNode":"6b1aef3088546baa","fromSide":"right","toNode":"2f00498bb660ef11","toSide":"left","fromEnd":"arrow","color":"2"},
+		{"id":"0443bbf38e796726","fromNode":"ebb584ba3dcef7ad","fromSide":"left","toNode":"6b1aef3088546baa","toSide":"right","fromEnd":"arrow"}
+	]
+}
