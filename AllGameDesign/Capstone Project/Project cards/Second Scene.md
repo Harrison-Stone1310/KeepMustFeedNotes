@@ -16,6 +16,7 @@ After testing here are the summary notes on what a scene needs for transition
 - the spawn points of all the entrances (ie if the player enters on the right need to know the x and y of that spot and have it referenceable)- see source 1.1, 1.2
 - on ready a check to see where the player will spawn in, and make the player's position be that. - see source 1.1, 1.2
 - Then need a global script with the level paths assigned with their - see source 1.4
+- ~~New Resource setup; testLevelResource.gd~~ Gonna axe the resource route here, see 1.2 for other version. After all each level is going to need their own script to handle the collistion effects...UNLESS I add that to the resource too. Unceratin, gonna leave it for now
 Sources
 1) SaveLoadTest project
 	1) test_load.gd
