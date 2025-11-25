@@ -8,6 +8,8 @@ Is Done?: false
 CurrentTask: false
 ---
 #capstoneProject 
+11/23: What if instead of bring the player to the scene, brought the scene to the player? NOTE: This does work, a manager that has the scene paths can in fact handle the transitions. Could have it where when the level calls the scene transition code when hitting the level borders. Left for later
+
 After testing here are the summary notes on what a scene needs for transition
 - 1 load scene per entrance/exit -see source 1
 - 1 signal per load zone that detects when a body that is a player (using player class) enters the zone- see source 1
