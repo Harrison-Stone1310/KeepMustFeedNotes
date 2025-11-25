@@ -11,14 +11,17 @@
             "id": "52acb4efe6a367bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "AllGameDesign/Capstone Project/Project cards/Second Scene.md",
-                "mode": "source",
-                "source": false
+                "file": "AllGameDesign/Capstone Project/Sprint 1/UML SaveLoad.canvas",
+                "viewState": {
+                  "x": 183.5091958113357,
+                  "y": -909.7352440610834,
+                  "zoom": -0.6681800047636108
+                }
               },
-              "icon": "lucide-file",
-              "title": "Second Scene"
+              "icon": "lucide-layout-dashboard",
+              "title": "UML SaveLoad"
             }
           }
         ]
@@ -78,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "30217f2f650bdaa9",
@@ -185,6 +189,8 @@
   },
   "active": "52acb4efe6a367bd",
   "lastOpenFiles": [
+    "AllGameDesign/Capstone Project/Project cards/Save and Load.md",
+    "AllGameDesign/Capstone Project/Project cards/Second Scene.md",
     "AllGameDesign/Capstone Project/Project cards/Sprint 1.base",
     "ProjectMotes/Welcome.md",
     "ProjectMotes"
