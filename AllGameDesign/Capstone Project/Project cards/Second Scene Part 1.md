@@ -10,6 +10,8 @@ CurrentTask: false
 #capstoneProject 
 11/23: What if instead of bring the player to the scene, brought the scene to the player? NOTE: This does work, a manager that has the scene paths can in fact handle the transitions. Could have it where when the level calls the scene transition code when hitting the level borders. Left for later
 
+12/20: Watched a video on the idea that defining the idea the having the doors between levels defined twice is a bad design choice. Example is When making cutting room 1 transition to cutting room 2 both scene have defined in their code where they transition to, and if I made the mistake of setting up the code wrong then 1 could go back to 1 or to 3 even though it is meant to connect to two. Single Source of Truth is the conecpt
+
 After testing here are the summary notes on what a scene needs for transition
 - 1 load scene per entrance/exit -see source 1
 - 1 signal per load zone that detects when a body that is a player (using player class) enters the zone- see source 1

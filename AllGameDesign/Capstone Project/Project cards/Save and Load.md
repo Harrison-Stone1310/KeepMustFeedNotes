@@ -6,9 +6,12 @@ Sprint:
 Due Date:
 Is Done?: false
 Description: Save and load the game information, such as player position and minerals acquired.
-CurrentTask: false
+CurrentTask: true
 ---
 #capstoneProject 
+
+12/21: While trying to make minable materials it came to my attention that when a level load  it won't be faster then the level loading the defaults, so you need to let objects know that you have loaded new information with a signal. May be better to just use the signal instead of trying to not beat the load. Since level should load on ready having a signal emit to allow everything to know it is okay to load will work best 
+
 [[UML SaveLoad.canvas|UML SaveLoad]]
 The UML for save load should work in theory, will have to test in practice. It is however a good UML. 
 Notes so far:
