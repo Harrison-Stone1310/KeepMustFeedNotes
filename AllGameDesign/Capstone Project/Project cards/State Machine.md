@@ -1,10 +1,10 @@
 ---
 Sprint:
   - Sprint1
-CurrentTask: true
+CurrentTask: false
 Type:
 Due Date:
-Is Done?:
+Is Done?: true
 Description: Add Abstraction
 ---
 State machine, trying to make it use abstract classes 
