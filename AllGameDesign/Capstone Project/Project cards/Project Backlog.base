@@ -5,6 +5,7 @@ views:
       and:
         - "!Sprint.isEmpty()"
         - '!Sprint.contains("template")'
+        - note["Is Done?"] == false
     order:
       - file.name
       - Sprint

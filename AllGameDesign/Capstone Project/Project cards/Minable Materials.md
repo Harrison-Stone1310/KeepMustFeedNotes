@@ -4,8 +4,8 @@ Description: First material that can be mined and used
 Type:
   - Coregameplay
 Due Date:
-Is Done?: false
-CurrentTask: true
+Is Done?: true
+CurrentTask: false
 ---
 #capstoneProject 
 Done-Need a hitbox that determines when they get hit 

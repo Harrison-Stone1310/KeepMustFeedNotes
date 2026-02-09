@@ -1,7 +1,7 @@
 ---
 Sprint:
   - Sprint1
-CurrentTask: false
+CurrentTask: true
 Description: The scene with the Keep's Heart
 Type:
   - Coregameplay

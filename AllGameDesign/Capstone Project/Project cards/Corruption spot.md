@@ -4,8 +4,9 @@ Type:
 Sprint:
   - Sprint1
 Due Date:
-Is Done?: false
+Is Done?: true
 Description: A corruption spot the gets cleared using material gained from mining
-CurrentTask: true
+CurrentTask: false
 ---
 #capstoneProject 
+

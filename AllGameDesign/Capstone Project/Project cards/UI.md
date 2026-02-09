@@ -1,11 +1,12 @@
 ---
 Sprint:
-  - unspecified
+  - Sprint2
 Type:
   - Coregameplay
 Due Date:
 Is Done?: false
 Description: User interface aspect of the game
+CurrentTask: false
 ---
 #capstoneProject 
 Good video: https://www.youtube.com/watch?v=KOyREJu1P3I 
