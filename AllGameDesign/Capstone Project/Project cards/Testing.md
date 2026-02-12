@@ -7,6 +7,12 @@ Due Date:
 Is Done?: false
 Description: Testing
 ---
+Lovestruck
+Enchanted by nature
+Business and hobbies
+Life and Death
+Adventure awaits 
+
 Feedback: What is one feature you think would improve this game, either as it is or a future addition
 New card for testing notes
 
