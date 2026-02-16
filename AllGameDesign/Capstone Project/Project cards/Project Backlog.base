@@ -27,3 +27,17 @@ views:
       - Is Done?
       - Notes
     imageFit: contain
+  - type: cards
+    name: All Completed
+    filters:
+      and:
+        - "!Sprint.isEmpty()"
+        - note["Is Done?"] == true
+    order:
+      - file.name
+      - Sprint
+      - Is Done?
+      - Description
+      - Type
+      - Due Date
+      - CurrentTask

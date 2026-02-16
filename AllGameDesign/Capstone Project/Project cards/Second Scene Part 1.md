@@ -4,8 +4,8 @@ Description: The second scene that gets loaded when the player enters it
 Type:
   - Coregameplay
 Due Date:
-Is Done?: false
-CurrentTask: true
+Is Done?: true
+CurrentTask: false
 ---
 #capstoneProject 
 11/23: What if instead of bring the player to the scene, brought the scene to the player? NOTE: This does work, a manager that has the scene paths can in fact handle the transitions. Could have it where when the level calls the scene transition code when hitting the level borders. Left for later

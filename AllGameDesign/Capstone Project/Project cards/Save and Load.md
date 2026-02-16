@@ -4,9 +4,9 @@ Type:
 Sprint:
   - Sprint1
 Due Date:
-Is Done?: false
+Is Done?: true
 Description: Save and load the game information, such as player position and minerals acquired.
-CurrentTask: true
+CurrentTask: false
 ---
 #capstoneProject 
 1/28: Make sure to implement the save and load on level load, like in the cutting room. 

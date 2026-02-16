@@ -26,3 +26,18 @@ Scrum 2
 		Refactored room code so that Level adbstract class has 90% of the code and rooms have the other 10, now setting up a room takes a few inputs and editing the Room manager
 		Keeps heart and Room 1_1 have been made, came up with room naming convention of the 4 corners each have a header (1-4, starting top right and clockwise going up) then each room has a number. This way there can be any number of rooms. 
 		Have connected Keeps heart to Room1_1 but not vice versus. 
+
+(Images have numbers, see corresponding image based on number)
+First up I have finalized what is needed to be done in Sprint 2 and added those cards into the project (1).  One of the things I noticed I will need alot of is new UI based things, like the Curroption showing what minerals are needed and Tutorial Elements. These are things that I don't have much experience with really and know may take a bit longer or I may find a way for it to be improved when I do it, so I broke some of them down into multiple parts to make sure time is properly budgeted.  
+
+Here is what was completed in the last week for the project
+Refactored the room code the Level abstract class have about 90% of the code and each level needs only a few key details to function. This wasn't something that I had a created a card for in the sprint but has made setting up level go 10 times faster. Keep's Heart room and Room1_1 have both been created and tied to each other so the player can move between them freely,(2,6)  remade the levels with new textures, added parallax effects to each level, added first iteration of Keep's Heart asset, added gem pop out and pick up effect for minerals(3), made it so doors opened when destroying curroption(4,5).
+
+Images 
+1. ![[Sprint2Overview.png]]
+2. ![[KeepHeartPreview.png]]
+3. ![[MineralGemPopOut.png]]
+4. ![[CurroptionBeforeOpen.png]]
+5. ![[CurroptionAfterOpen.png]]
+6. ![[Room1_1Overview.png]]
+7. 

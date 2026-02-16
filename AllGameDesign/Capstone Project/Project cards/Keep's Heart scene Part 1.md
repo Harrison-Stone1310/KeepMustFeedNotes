@@ -1,12 +1,12 @@
 ---
 Sprint:
   - Sprint1
-CurrentTask: true
+CurrentTask: false
 Description: The scene with the Keep's Heart
 Type:
   - Coregameplay
 Due Date:
-Is Done?: false
+Is Done?: true
 ---
 #capstoneProject 
 What do levels need to store
