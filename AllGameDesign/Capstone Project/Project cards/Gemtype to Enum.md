@@ -1,12 +1,14 @@
 ---
 Sprint:
   - Sprint2
-CurrentTask: true
+CurrentTask: false
 Type:
 Due Date:
-Is Done?:
+Is Done?: true
 Description: Make Gemtype and Enum instead of a String
 ---
+Need to edit the inventory loading after a save, the file type makes it all strings so I need to destringify it-Done
+
 Ok, so the changes have been made but not fully tested. Will need to go through and change a few things later one
 
 Plan is to make Gemtype work off of Enums and ints instead of Strings so spellin is no longer a problem

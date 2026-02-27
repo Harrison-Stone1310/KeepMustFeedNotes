@@ -1,13 +1,17 @@
 ---
 Sprint:
   - Sprint2
-Is Done?: false
+Is Done?: true
 Type:
   - Coregameplay
 Due Date:
 Description: Making it so certain objects like curroption spots and blocked walls are removed permenatly while minerals come back each run
 CurrentTask: false
 ---
+I have walked back having all gems be remade after restarting a run, just seems like a exploit heavy system atm. Going with single use gems now. 
+Correction, everything that is saved or changed is important. 
+Hmm, there was a bug that made it so inventory only saved when entering a new room. Maybe that should be a feature instead of a bug, so that you have to enter a new room to get the gems you gathered. Nah, don't like that. 
+
 Ok, so a thought has occured to me
 Currently saving minerals mined, curroption, and player inventory to file
 Only need Curroption and player info, rest can be forgot on new runs

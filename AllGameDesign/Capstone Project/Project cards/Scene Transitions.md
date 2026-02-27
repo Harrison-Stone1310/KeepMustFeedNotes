@@ -1,7 +1,7 @@
 ---
 Sprint:
   - Sprint2
-CurrentTask: true
+CurrentTask: false
 Type:
   - Coregameplay
 Due Date:

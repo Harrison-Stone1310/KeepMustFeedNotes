@@ -1,10 +1,10 @@
 ---
 Sprint:
   - Sprint2
-CurrentTask: true
+CurrentTask: false
 Type:
   - Coregameplay
 Due Date:
-Is Done?:
+Is Done?: true
 Description: Second part of implemnintf keep heart scene
 ---
