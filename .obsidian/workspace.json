@@ -8,20 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52acb4efe6a367bd",
+            "id": "20db1e82c844e0d9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "AllGameDesign/Capstone Project/Sprint 1/UML SaveLoad.canvas",
-                "viewState": {
-                  "x": 183.5091958113357,
-                  "y": -909.7352440610834,
-                  "zoom": -0.6681800047636108
-                }
+                "file": "AllGameDesign/Capstone Project/List of people to credit.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "UML SaveLoad"
+              "icon": "lucide-file",
+              "title": "List of people to credit"
             }
           }
         ]
@@ -187,8 +184,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "52acb4efe6a367bd",
+  "active": "20db1e82c844e0d9",
   "lastOpenFiles": [
+    "AllGameDesign/Capstone Project/Project cards/Sprint 2.base",
+    "AllGameDesign/Capstone Project/Project cards/Tutorial Part 2.md",
+    "AllGameDesign/Capstone Project/Project cards/Demo Release.md",
+    "AllGameDesign/Capstone Project/Sprint 1/UML SaveLoad.canvas",
     "AllGameDesign/Capstone Project/Project cards/Save and Load.md",
     "AllGameDesign/Capstone Project/Project cards/Second Scene.md",
     "AllGameDesign/Capstone Project/Project cards/Sprint 1.base",

@@ -6,5 +6,6 @@ Type:
   - Coregameplay
 Due Date:
 Description: Finalization of Tutorial elements
-CurrentTask: false
+CurrentTask: true
 ---
+Made symbols to correspond 
