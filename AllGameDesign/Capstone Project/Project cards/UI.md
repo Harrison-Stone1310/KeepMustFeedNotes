@@ -4,9 +4,9 @@ Sprint:
 Type:
   - Coregameplay
 Due Date:
-Is Done?: false
+Is Done?: true
 Description: User interface aspect of the game
-CurrentTask: true
+CurrentTask: false
 ---
 #capstoneProject 
 Good video: https://www.youtube.com/watch?v=KOyREJu1P3I 

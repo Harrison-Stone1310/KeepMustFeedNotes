@@ -1,11 +1,11 @@
 ---
 Sprint:
   - Sprint2
-CurrentTask: true
+CurrentTask: false
 Type:
   - Coregameplay
 Due Date:
-Is Done?: false
+Is Done?: true
 Description: The second scene that gets loaded when the player enters it, second part 2
 ---
 RoomConnects

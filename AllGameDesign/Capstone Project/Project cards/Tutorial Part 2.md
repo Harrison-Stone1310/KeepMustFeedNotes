@@ -1,11 +1,11 @@
 ---
 Sprint:
   - Sprint2
-Is Done?: false
+Is Done?: true
 Type:
   - Coregameplay
 Due Date:
 Description: Finalization of Tutorial elements
-CurrentTask: true
+CurrentTask: false
 ---
 Made symbols to correspond 

@@ -1,7 +1,7 @@
 ---
 Sprint:
   - Sprint2
-CurrentTask: false
+CurrentTask: true
 Type:
 Due Date:
 Is Done?:

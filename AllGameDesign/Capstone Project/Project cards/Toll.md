@@ -1,6 +1,6 @@
 ---
 Sprint:
-  - Sprint2
+  - unspecified
 CurrentTask: false
 Type:
 Due Date:
