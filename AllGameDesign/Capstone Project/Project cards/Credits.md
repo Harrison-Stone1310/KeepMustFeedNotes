@@ -1,9 +1,9 @@
 ---
 Sprint:
   - Sprint2
-CurrentTask: true
+CurrentTask: false
 Type:
 Due Date:
-Is Done?:
+Is Done?: true
 Description: Credits for the game
 ---

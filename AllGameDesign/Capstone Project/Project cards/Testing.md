@@ -2,6 +2,7 @@
 Sprint:
   - Sprint1
   - Sprint2
+  - Sprint3
 CurrentTask: true
 Type:
 Due Date:
