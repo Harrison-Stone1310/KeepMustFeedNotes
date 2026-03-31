@@ -2,12 +2,12 @@
 Sprint:
   - Sprint2
   - Sprint3
-Is Done?: false
+Is Done?: true
 Type:
   - Coregameplay
 Due Date:
 Description: Releasing the Demo on Itch.io
-CurrentTask: true
+CurrentTask: false
 ---
 Last build made 2/28/2026, needs to be rebuilt 
 
